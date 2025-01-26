@@ -1,3 +1,15 @@
 spring:
   application:
     name: currency_converter
+  docker:
+    compose:
+      enabled: true
+      file: docker-compose.yml
+
+app:
+  exchangerate-api:
+    path: https://v6.exchangerate-api.com/v6/%s/latest/
+    key: 36b734d5c059df2afe224984
+  redis:
+    host: localhost
+    port: 6379
