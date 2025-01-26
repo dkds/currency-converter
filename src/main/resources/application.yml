@@ -13,3 +13,4 @@ app:
   redis:
     host: localhost
     port: 6379
+    prefix: app:rates
