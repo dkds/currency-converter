@@ -1,7 +1,17 @@
 services:
   redis:
-    image: 'redis:7.0'
+    image: 'redis:7.4-alpine'
     ports:
       - 6379:6379
+    labels:
+      org.springframework.boot.ignore: true
+
+  rabbitmq:
+    image: 'rabbitmq:4.0-alpine'
+    environment:
+      - 'RABBITMQ_DEFAULT_USER=admin'
+      - 'RABBITMQ_DEFAULT_PASS=secret'
+    ports:
+      - 5672:5672
     labels:
       org.springframework.boot.ignore: true

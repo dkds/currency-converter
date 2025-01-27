@@ -14,3 +14,8 @@ app:
     host: localhost
     port: 6379
     prefix: app:rates
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: secret

@@ -27,6 +27,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("redis.clients:jedis:5.2.0")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.16.0")
+    implementation("org.springframework.amqp:spring-rabbit")
     developmentOnly("org.springframework.boot:spring-boot-docker-compose")
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
