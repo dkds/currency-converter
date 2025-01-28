@@ -1,0 +1,5 @@
+spring:
+  application.name: limited_api
+
+server:
+  port: 8082

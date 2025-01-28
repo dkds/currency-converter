@@ -6,6 +6,9 @@ spring:
       enabled: true
       file: ../docker-compose.yml
 
+server:
+  port: 8081
+
 app:
   exchangerate-api:
     path: https://v6.exchangerate-api.com/v6/%s/latest/
