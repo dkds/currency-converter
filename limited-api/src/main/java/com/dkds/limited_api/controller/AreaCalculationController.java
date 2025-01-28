@@ -1,4 +1,4 @@
-package com.dkds.limited_api;
+package com.dkds.limited_api.controller;
 
 import com.dkds.limited_api.dto.Area;
 import com.dkds.limited_api.dto.RectangleDimensions;
